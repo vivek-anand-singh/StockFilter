@@ -28,7 +28,7 @@ export const operators = [
     { id: 'Current Ratio', label: 'Current Ratio', unit: '' },
     { id: 'Gross Margin', label: 'Gross Margin', unit: '%' }
   ];
-
+  
   export function applyFilters(stocks, filters) {
     return stocks.filter(stock => {
       return filters.every(filter => {

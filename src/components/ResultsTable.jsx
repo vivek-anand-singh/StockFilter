@@ -41,7 +41,7 @@ const ResultsTable = ({ data }) => {
                 <th
                   key={index}
                   onClick={() => handleSort(Object.keys(stockMetrics)[index])}
-                  className="cursor-pointer px-4 py-3 border-b text-left font-medium text-gray-700"
+                  className="cursor-pointer px-4 py-3 border-b text-left font-medium text-gray-700 hover:bg-gray-200"
                 >
                   {metric}
                   {sortConfig.key === Object.keys(stockMetrics)[index] && (
